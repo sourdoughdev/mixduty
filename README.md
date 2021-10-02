@@ -1,9 +1,3 @@
-# Deprecation Notice
-
-This package is no longer maintained and we do not recommend using it.
-
-----
-
 # Mixduty
 
 A simple elixir client for the PagerDuty v2 API.
@@ -17,7 +11,7 @@ Install by adding `mixduty` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:mixduty, "~> 0.1.1"}
+    {:mixduty, "~> 0.1.1", github: "sourdoughdev/mixduty"}
   ]
 end
 ```
