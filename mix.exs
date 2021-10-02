@@ -5,7 +5,7 @@ defmodule Mixduty.MixProject do
     [
       app: :mixduty,
       version: "0.2.0",
-      elixir: "~> 1.11",
+      elixir: "~> 1.12",
       start_permanent: Mix.env() == :prod,
       description: description(),
       package: package(),
