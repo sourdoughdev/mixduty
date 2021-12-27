@@ -39,7 +39,7 @@ defmodule Mixduty.MixProject do
   defp deps do
     [
       {:httpoison, "~> 1.6"},
-      {:jason, "~> 1.2.2"},
+      {:jason, "~> 1.3.0"},
       {:ex_doc, "~> 0.24", only: :dev, runtime: false},
       {:plug_cowboy, "~> 2.5"},
       {:morphix, "~> 0.8.0"}
